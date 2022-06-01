@@ -1,3 +1,6 @@
 #!/bin/bash
-echo $((POWER / DIVIDE))
-
+POWER=50
+DIVIDE=25
+ans=$((POWER / DIVIDE))
+echo $ans
+echo
